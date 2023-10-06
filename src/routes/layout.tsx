@@ -28,11 +28,9 @@ export default component$(() => {
   useStyles$(styles);
   return (
     <>
-      <Header />
-      <main>
+      <main class="text-black p-8">
         <Slot />
       </main>
-      <Footer />
     </>
   );
 });
